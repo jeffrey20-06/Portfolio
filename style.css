@@ -1,0 +1,129 @@
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    list-style: none;
+    background-color: rgb(20, 120, 140);
+    height: 45px;
+}
+
+a{
+    color: rgb(240, 240, 240);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(255, 200, 0);
+    text-decoration: underline;
+}
+
+li:hover{
+    background-color: rgb(30, 30, 30);
+    padding: 12px;
+}
+
+#intro{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40, 40, 40);
+    color: rgb(220, 220, 220);
+    height: 60vh;
+}
+
+#intro a{
+    color: white;
+    padding: 8px 25px;
+    display: inline-block;
+    background-color: rgb(0, 150, 100);
+    margin: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#intro a:hover{
+    background-color: rgb(0, 100, 70);
+}
+
+#intro h1{
+    font-size: 3em;
+    margin: 10px;
+}
+
+#about{
+    box-shadow: 3px 3px 15px rgba(100, 100, 100, 0.5);
+    padding: 20px;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#skills{
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+}
+
+.skill-bar{
+    height: 12px;
+    background-color: rgb(180, 180, 180);
+    border-radius: 15px;
+}
+
+.css{
+    height: 12px;
+    background-color: rgb(0, 180, 220);
+    width: 50%;
+}
+
+.Reactjs{
+    height: 12px;
+    background-color: rgb(255, 120, 0);
+    width: 75%;
+}
+
+.python{
+    height: 12px;
+    background-color: rgb(100, 200, 50);
+    width: 65%;
+}
+
+.java{
+    height: inherit;
+    background-color: rgb(200, 50, 50);
+    width: 70%;
+}
+
+#Contacts a{
+    color: black;
+    padding: 10px 25px;
+    display: inline-block;
+    background-color: rgb(255, 180, 0);
+    margin: 12px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+#Contacts{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.nav-color{
+    background-color: rgb(10, 90, 60) !important;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.navbar-collapse{
+    justify-content: center;
+}
